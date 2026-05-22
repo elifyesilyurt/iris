@@ -1,5 +1,7 @@
 # 🌸 Iris Çiçeği — Keşifsel Veri Analizi (EDA)
 
+> 🇬🇧 [Click for English README](./README_EN.md)
+
 Bu proje, makine öğrenmesinin klasik veri seti olan **Iris** üzerinde temel bir Keşifsel Veri Analizi (EDA) gerçekleştirir. Pandas, Seaborn ve Matplotlib kullanılarak veri incelenir, görselleştirilir ve türler arasındaki ilişkiler ortaya konur.
 
 ---
@@ -46,8 +48,8 @@ jupyter
 
 ```bash
 # 1. Repoyu klonla
-git clone https://github.com/KULLANICI_ADIN/iris-eda.git
-cd iris-eda
+git clone https://github.com/elifyesilyurt/iris.git
+cd iris
 
 # 2. Bağımlılıkları yükle
 pip install -r requirements.txt
@@ -85,11 +87,12 @@ Türler arasındaki fark en net petal_length'te görülür
 ## 📁 Proje Yapısı
 
 ```
-iris-eda/
+iris/
 ├── iris.ipynb          # Ana notebook
 ├── bezdekIris.data     # Veri seti (manuel indirilmeli)
 ├── requirements.txt    # Python bağımlılıkları
-└── README.md           # Bu dosya
+├── README.md           # Bu dosya
+└── README_EN.md        # İngilizce README
 ```
 
 ---
